@@ -1,15 +1,15 @@
 # trojan-web
 
-[trojan管理程序](https://github.com/Jrohy/trojan)前端页面  
+[Trojan management program](https://github.com/alireza0/trojan-english) Front-end page  
 
-技术栈: vue3.0 + element-plus + vite
+Technology stack: vue3.0 + element-plus + vite
 
-### 项目启动步骤
-1. 安装包  
+### Project startup step
+1. Installation package  
    `npm install`
-2. 开发运行  
+2. Development and operation  
    `vite`
-3. 生产打包  
+3. Production and packaging  
    `vite build`
 
-**欢迎fork以改进优化页面**
+** Welcome to improve the optimization page **

@@ -205,7 +205,7 @@ export default {
             expiryVisible: false,
             expiryShow: '',
             patchButton: false,
-            // 确认框类型: 0删除, 1重置流量, 2新增用户, 3修改用户
+            // Confirmation box type: 0 Delete, 1 reset traffic, 2 new users, 3 modify the user
             commonType: 0,
             userItem: null,
             quota: -1,
@@ -334,7 +334,8 @@ export default {
             return (a.Download + a.Upload) - (b.Download + b.Upload)
         },
         handleShare() {
-            let remark = encodeURIComponent(`${this.domain}:${this.port}`)
+            let remark = encodeURIComponent(`${this.userItem.Username}`)
+            //encodeURIComponent(`${this.domain}:${this.port}`)
             this.shareLink = `trojan://${atob(this.userItem.Password)}@${this.domain}:${this.port}#${remark}`
             this.$nextTick(() => {
                 // eslint-disable-next-line
